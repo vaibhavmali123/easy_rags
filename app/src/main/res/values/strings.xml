@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Balaji Enterprise</string>
+
+    <string name="base_url">http://meradaftar.com/balaji/api/</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="address">Balaji Enterprises\n Vasudha house 1st floor s no 182 / 2 main Baner road, Baner Pune 45</string>
+    <string name="email">balajisince1972@rediffmail.com</string>
+    <string name="mobile">020 27293001/2/3</string>
+    <string name="contact">+91 9822201116</string>
+    <string name="customer_care">020 2729 3001/02/03</string>
+    <string name="gst">27AAAPO8033F1ZU</string>
+</resources>

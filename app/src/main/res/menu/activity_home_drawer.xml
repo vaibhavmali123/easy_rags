@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+<!--        <item-->
+<!--            android:id="@+id/fruit"-->
+<!--            android:title="Fruits" />-->
+<!--        <item-->
+<!--            android:id="@+id/vegetables"-->
+<!--            android:title="Vegetables" />-->
+<!--        <item-->
+<!--            android:id="@+id/dryfruit"-->
+<!--            android:title="Dry Fruits" />-->
+<!--        <item-->
+<!--            android:id="@+id/cutsandsprouts"-->
+<!--            android:title="Cuts and Sprouts" />-->
+        <item
+            android:id="@+id/account"
+            android:title="My Account"
+            android:visible="false" />
+        <item
+            android:id="@+id/orders"
+            android:title="My orders"
+            android:visible="false" />
+        <item
+            android:id="@+id/aboutus"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/terms"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/pricing"
+            android:title="Pricing" />
+        <item
+            android:id="@+id/policy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/cancel"
+            android:title="Cancellation/Refund policy" />
+
+        <item
+            android:id="@+id/login"
+            android:title="Login"
+            android:visible="true" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:visible="false"/>
+        <item
+            android:title="Powered by: Softhub Technologies"
+            android:enabled="false"/>
+    </group>
+
+</menu>

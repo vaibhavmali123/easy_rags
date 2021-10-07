@@ -1,0 +1,124 @@
+package com.balaji.easy_rags;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+
+public class ShippingPolicyActivity extends AppCompatActivity {
+
+    WebView webViewShipping;
+    String content="<p>Shipping Policy:<br>\n" +
+            "Shipping Policy for Balaji Enterprises<br>\n" +
+            "At https://play.google.com/store/apps/details?id=com.softhub.balajienterprise, accessible from<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise, one of our main<br>\n" +
+            "priorities is the privacy of our visitors. This Privacy Policy document contains types of<br>\n" +
+            "information that is collected and recorded by<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise and how we use it.<br>\n" +
+            "If you have additional questions or require more information about our Privacy Policy, do not<br>\n" +
+            "hesitate to contact us.<br>\n" +
+            "This Privacy Policy applies only to our online activities and is valid for visitors to our website with<br>\n" +
+            "regards to the information that they shared and/or collect in<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise. This policy is not<br>\n" +
+            "applicable to any information collected offline or via channels other than this website. Our<br>\n" +
+            "Privacy Policy was created with the help of the Privacy Policy Generator.<br>\n" +
+            "Consent<br>\n" +
+            "By using our website, you hereby consent to our Privacy Policy and agree to its terms.<br>\n" +
+            "Information we collect<br>\n" +
+            "The personal information that you are asked to provide, and the reasons why you are asked to<br>\n" +
+            "provide it, will be made clear to you at the point we ask you to provide your personal<br>\n" +
+            "information.<br>\n" +
+            "If you contact us directly, we may receive additional information about you such as your name,<br>\n" +
+            "email address, phone number, the contents of the message and/or attachments you may send<br>\n" +
+            "us, and any other information you may choose to provide.<br>\n" +
+            "When you register for an Account, we may ask for your contact information, including items<br>\n" +
+            "such as name, company name, address, email address, and telephone number.<br>\n" +
+            "How we use your information<br>\n" +
+            "We use the information we collect in various ways, including to:<br>\n" +
+            "&#61623; Provide, operate, and maintain our website<br>\n" +
+            "&#61623; Improve, personalize, and expand our website<br>\n" +
+            "&#61623; Understand and analyze how you use our website<br>\n" +
+            "&#61623; Develop new products, services, features, and functionality <br>\n" +
+            "&#61623; Communicate with you, either directly or through one of our partners, including for<br>\n" +
+            "customer service, to provide you with updates and other information relating to the<br>\n" +
+            "website, and for marketing and promotional purposes<br>\n" +
+            "&#61623; Send you emails<br>\n" +
+            "&#61623; Find and prevent fraud<br>\n" +
+            "Log Files<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise follows a standard<br>\n" +
+            "procedure of using log files. These files log visitors when they visit websites. All hosting<br>\n" +
+            "companies do this and a part of hosting services' analytics. The information collected by log files<br>\n" +
+            "include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and<br>\n" +
+            "time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any<br>\n" +
+            "information that is personally identifiable. The purpose of the information is for analyzing trends,<br>\n" +
+            "administering the site, tracking users' movement on the website, and gathering demographic<br>\n" +
+            "information.<br>\n" +
+            "Advertising Partners Privacy Policies<br>\n" +
+            "You may consult this list to find the Privacy Policy for each of the advertising partners of<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise.<br>\n" +
+            "Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web<br>\n" +
+            "Beacons that are used in their respective advertisements and links that appear on<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise, which are sent<br>\n" +
+            "directly to users' browser. They automatically receive your IP address when this occurs. These<br>\n" +
+            "technologies are used to measure the effectiveness of their advertising campaigns and/or to<br>\n" +
+            "personalize the advertising content that you see on websites that you visit.<br>\n" +
+            "Note that https://play.google.com/store/apps/details?id=com.softhub.balajienterprise has no<br>\n" +
+            "access to or control over these cookies that are used by third-party advertisers.<br>\n" +
+            "Third Party Privacy Policies<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise's Privacy Policy does<br>\n" +
+            "not apply to other advertisers or websites. Thus, we are advising you to consult the respective<br>\n" +
+            "Privacy Policies of these third-party ad servers for more detailed information. It may include their<br>\n" +
+            "practices and instructions about how to opt-out of certain options.<br>\n" +
+            "You can choose to disable cookies through your individual browser options. To know more<br>\n" +
+            "detailed information about cookie management with specific web browsers, it can be found at<br>\n" +
+            "the browsers' respective websites.<br>\n" +
+            "CCPA Privacy Rights (Do Not Sell My Personal Information)<br>\n" +
+            "Under the CCPA, among other rights, California consumers have the right to:<br>\n" +
+            "Request that a business that collects a consumer's personal data disclose the categories and<br>\n" +
+            "specific pieces of personal data that a business has collected about consumers. <br>\n" +
+            "Request that a business delete any personal data about the consumer that a business has<br>\n" +
+            "collected.<br>\n" +
+            "Request that a business that sells a consumer's personal data, not sell the consumer's personal<br>\n" +
+            "data.<br>\n" +
+            "If you make a request, we have one month to respond to you. If you would like to exercise any<br>\n" +
+            "of these rights, please contact us.<br>\n" +
+            "GDPR Data Protection Rights<br>\n" +
+            "We would like to make sure you are fully aware of all of your data protection rights. Every user<br>\n" +
+            "is entitled to the following:<br>\n" +
+            "The right to access &ndash; You have the right to request copies of your personal data. We may<br>\n" +
+            "charge you a small fee for this service.<br>\n" +
+            "The right to rectification &ndash; You have the right to request that we correct any information you<br>\n" +
+            "believe is inaccurate. You also have the right to request that we complete the information you<br>\n" +
+            "believe is incomplete.<br>\n" +
+            "The right to erasure &ndash; You have the right to request that we erase your personal data, under<br>\n" +
+            "certain conditions.<br>\n" +
+            "The right to restrict processing &ndash; You have the right to request that we restrict the processing of<br>\n" +
+            "your personal data, under certain conditions.<br>\n" +
+            "The right to object to processing &ndash; You have the right to object to our processing of your<br>\n" +
+            "personal data, under certain conditions.<br>\n" +
+            "The right to data portability &ndash; You have the right to request that we transfer the data that we<br>\n" +
+            "have collected to another organization, or directly to you, under certain conditions.<br>\n" +
+            "If you make a request, we have one month to respond to you. If you would like to exercise any<br>\n" +
+            "of these rights, please contact us.<br>\n" +
+            "Children's Information<br>\n" +
+            "Another part of our priority is adding protection for children while using the internet. We<br>\n" +
+            "encourage parents and guardians to observe, participate in, and/or monitor and guide their<br>\n" +
+            "online activity.<br>\n" +
+            "https://play.google.com/store/apps/details?id=com.softhub.balajienterprise does not knowingly<br>\n" +
+            "collect any Personal Identifiable Information from children under the age of 13. If you think that<br>\n" +
+            "your child provided this kind of information on our website, we strongly encourage you to<br>\n" +
+            "contact us immediately and we will do our best efforts to promptly remove such information from<br>\n" +
+            "our records.</p> \n <p>Shipping Policy: \n" +
+            "Shipping will be done within 2-3 days after placing the order.</p>";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_shipping_policy);
+
+        webViewShipping=findViewById(R.id.shippingWebview);
+        webViewShipping.loadDataWithBaseURL(null, content, "text/html", "utf-8", null);
+
+
+    }
+}

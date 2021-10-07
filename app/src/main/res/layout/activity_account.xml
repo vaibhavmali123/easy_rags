@@ -79,6 +79,43 @@
                         android:textSize="20sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/companyNameEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/companyNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:hint="Company name"
+                        android:text=""
+                        android:textColor="@color/colorBlack"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/gstEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="5dp">
+
+                    <EditText
+                        android:id="@+id/gstEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:hint="GST number"
+                        android:text=""
+                        android:textColor="@color/colorBlack"
+                        android:textSize="20sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -127,6 +164,7 @@
                     android:layout_height="50dp"
                     android:orientation="horizontal"
                     android:weightSum="2"
+                    android:visibility="gone"
                     android:layout_margin="5dp">
                     <TextView
                         android:layout_width="0dp"
@@ -151,6 +189,7 @@
                     android:layout_height="20dp"
                     android:layout_margin="5dp"
                     android:text="Gender"
+                    android:visibility="gone"
                     android:textSize="14sp"
                     android:gravity="center|left">
 
@@ -161,6 +200,7 @@
                     android:layout_height="50dp"
                     android:orientation="horizontal"
                     android:weightSum="2"
+                    android:visibility="gone"
                     android:layout_margin="5dp">
                     <TextView
                         android:layout_width="0dp"

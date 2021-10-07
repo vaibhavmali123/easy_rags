@@ -65,6 +65,16 @@
             android:layout_marginLeft="50dp"
             android:gravity="left|top"
             android:id="@+id/a_addressEdit"/>
+        <EditText
+            android:id="@+id/addressThree"
+            android:hint="Address"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="left|top"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -158,6 +168,24 @@
                                 android:layout_height="wrap_content"
                                 android:text="full address"
                                 android:id="@+id/a_printAddress1"/>
+                            <View
+                                android:layout_marginTop="4dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@android:color/darker_gray"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"></View>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Address2:" />
+                            <TextView
+                                android:id="@+id/a_printAddress2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="full address"
+                                android:layout_marginBottom="8dp"
+                                />
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -174,7 +202,9 @@
                                     android:textColor="#FFF"
                                     android:background="@color/colorAccent"
                                     android:id="@+id/a_selectOne"/>
+
                                 <TextView
+                                    android:visibility="gone"
                                     android:layout_width="0dp"
                                     android:layout_weight="1"
                                     android:layout_height="30dp"
@@ -188,6 +218,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -206,7 +237,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="full address"
-                                android:id="@+id/a_printAddress2"/>
+                                />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"

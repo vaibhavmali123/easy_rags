@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.softhub.balajienterprise">
+    package="com.balaji.easy_rags">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Cancel" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".OrderDetailsActivity"></activity>
+        <activity android:name=".ShippingPolicyActivity" />
+        <activity
+            android:name=".Cancel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Privacy"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -54,9 +62,5 @@
         <activity android:name=".AboutUs" />
         <activity android:name=".CompleteOrderHistory" />
     </application>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 </manifest>

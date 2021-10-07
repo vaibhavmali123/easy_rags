@@ -107,6 +107,25 @@
                         android:gravity="left"
                         android:id="@+id/regi_name"/>
                 </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="5dp"
+                    android:id="@+id/companyName">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Company name"
+                        android:textSize="20sp"
+                        android:gravity="left"
+                        android:id="@+id/companyNameEt"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="55dp"

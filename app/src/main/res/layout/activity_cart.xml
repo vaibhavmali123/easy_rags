@@ -231,12 +231,37 @@
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
                             android:gravity="center|left"
+                            android:visibility="gone"
                             android:textSize="18sp"
                             android:text="Cash On Delivery"
                             android:padding="10dp"
                             android:textColor="@color/colorPrimary"/>
-                    </LinearLayout>
 
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                       <RadioGroup
+                           android:orientation="horizontal"
+                           android:id="@+id/radio_grp_id"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <RadioButton
+                               android:text="Cash on delivery"
+                               android:id="@+id/cash_on_delivery"
+                               android:layout_width="wrap_content"
+                               android:paddingEnd="20dp"
+                               android:layout_height="wrap_content"></RadioButton>
+                           <RadioButton
+                               android:text="Online Payment"
+                               android:id="@+id/online_payment"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"></RadioButton>
+
+                       </RadioGroup>
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
